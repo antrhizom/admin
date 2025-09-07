@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellvertretungsplan 2025–2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+        <header class="text-center mb-8 print:hidden">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Stellvertretungsplan 2025–2026</h1>
+            <p class="text-gray-600 mt-2">Eine Übersicht aller geplanten Stellvertretungen.</p>
+        </header>
+
+        <!-- Print Button -->
+        <div class="text-center my-6 print:hidden">
+            <button onclick="window.print()" class="bg-blue-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-blue-700 transition duration-300 ease-in-out shadow-md inline-flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v6a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm-1 9H8v-2h6v2z" clip-rule="evenodd" />
+                </svg>
+                Drucken / Als PDF speichern
+            </button>
+        </div>
+
+        <!-- Totals Summary Section -->
+        <div class="mb-8 print:hidden">
+            <h2 class="text-xl font-semibold mb-4 text-gray-700">Zusammenfassung (Lektionen)</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <p class="text-sm text-gray-500">Block 1</p>
+                    <p class="text-2xl font-bold text-blue-600">18 L</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <p class="text-sm text-gray-500">Weihnachtsferien</p>
+                    <p class="text-2xl font-bold text-green-600">21 L</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <p class="text-sm text-gray-500">Sportferien</p>
+                    <p class="text-2xl font-bold text-purple-600">18 L</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <p class="text-sm text-gray-500">Jahr 2025</p>
+                    <p class="text-2xl font-bold text-gray-700">18 L</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+                    <p class="text-sm text-gray-500">Jahr 2026</p>
+                    <p class="text-2xl font-bold text-gray-700">39 L</p>
+                </div>
+                <div class="bg-blue-600 text-white p-4 rounded-lg shadow-lg text-center">
+                    <p class="text-sm text-blue-100">Gesamt</p>
+                    <p class="text-2xl font-bold">57 L</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Schedule Table -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden print:shadow-none print:rounded-none">
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-100 print:bg-white">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Block</th>
+                            <th scope="col" class="px-6 py-3">Jahr</th>
+                            <th scope="col" class="px-6 py-3">KW</th>
+                            <th scope="col" class="px-6 py-3">Datum</th>
+                            <th scope="col" class="px-6 py-3">Wochentag</th>
+                            <th scope="col" class="px-6 py-3">Klasse</th>
+                            <th scope="col" class="px-6 py-3">Unterrichtszeit</th>
+                            <th scope="col" class="px-6 py-3 text-center">Lektionen</th>
+                            <th scope="col" class="px-6 py-3">Hinweis</th>
+                        </tr>
+                    </thead>
+                    
+                    <!-- Block 1 Data -->
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="bg-blue-100 font-medium text-blue-800 print:bg-white print:text-black"><td colspan="9" class="px-6 py-3">Block 1</td></tr>
+                        <tr class="bg-blue-50 print:bg-white">
+                            <td class="px-6 py-4">1</td><td class="px-6 py-4">2025</td><td class="px-6 py-4">50</td><td class="px-6 py-4">08.12.2025</td><td class="px-6 py-4">Montag</td><td class="px-6 py-4 font-mono">AA24c</td><td class="px-6 py-4">12:55–15:20 & 16:20–17:10</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-blue-50 print:bg-white">
+                            <td class="px-6 py-4">1</td><td class="px-6 py-4">2025</td><td class="px-6 py-4">50</td><td class="px-6 py-4">10.12.2025</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-blue-50 print:bg-white">
+                            <td class="px-6 py-4">1</td><td class="px-6 py-4">2025</td><td class="px-6 py-4">50</td><td class="px-6 py-4">10.12.2025</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-blue-50 print:bg-white">
+                            <td class="px-6 py-4">1</td><td class="px-6 py-4">2025</td><td class="px-6 py-4">51</td><td class="px-6 py-4">15.12.2025</td><td class="px-6 py-4">Montag</td><td class="px-6 py-4 font-mono">AA24c</td><td class="px-6 py-4">12:55–15:20 & 16:20–17:10</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-blue-50 print:bg-white">
+                            <td class="px-6 py-4">1</td><td class="px-6 py-4">2025</td><td class="px-6 py-4">51</td><td class="px-6 py-4">17.12.2025</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-blue-50 print:bg-white">
+                            <td class="px-6 py-4">1</td><td class="px-6 py-4">2025</td><td class="px-6 py-4">51</td><td class="px-6 py-4">17.12.2025</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                    </tbody>
+                    
+                    <!-- Weihnachtsferien Data -->
+                     <tbody class="divide-y divide-gray-200">
+                        <tr class="bg-green-100 font-medium text-green-800 print:bg-white print:text-black"><td colspan="9" class="px-6 py-3">Weihnachtsferien</td></tr>
+                        <tr class="bg-green-200 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">3</td><td class="px-6 py-4">12.01.2026</td><td class="px-6 py-4">Montag</td><td class="px-6 py-4 font-mono">AA24c</td><td class="px-6 py-4">12:55–15:20 & 16:20–17:10</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4 text-green-900 font-medium print:text-black">Spezial: 3 Klassen in KW 3</td>
+                        </tr>
+                         <tr class="bg-green-50 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">3</td><td class="px-6 py-4">14.01.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-green-50 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">3</td><td class="px-6 py-4">14.01.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-green-50 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">4</td><td class="px-6 py-4">21.01.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-green-50 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">4</td><td class="px-6 py-4">21.01.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-green-50 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">5</td><td class="px-6 py-4">28.01.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-green-50 print:bg-white">
+                            <td class="px-6 py-4">2</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">5</td><td class="px-6 py-4">28.01.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                    </tbody>
+
+                    <!-- Sportferien Data -->
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="bg-purple-100 font-medium text-purple-800 print:bg-white print:text-black"><td colspan="9" class="px-6 py-3">Sportferien</td></tr>
+                        <tr class="bg-purple-50 print:bg-white">
+                            <td class="px-6 py-4">3</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">10</td><td class="px-6 py-4">04.03.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-purple-50 print:bg-white">
+                            <td class="px-6 py-4">3</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">10</td><td class="px-6 py-4">04.03.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-purple-50 print:bg-white">
+                            <td class="px-6 py-4">3</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">11</td><td class="px-6 py-4">11.03.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-purple-50 print:bg-white">
+                            <td class="px-6 py-4">3</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">11</td><td class="px-6 py-4">11.03.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-purple-50 print:bg-white">
+                            <td class="px-6 py-4">3</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">12</td><td class="px-6 py-4">18.03.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">AAAF25</td><td class="px-6 py-4">10:20–12:45</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                        <tr class="bg-purple-50 print:bg-white">
+                            <td class="px-6 py-4">3</td><td class="px-6 py-4">2026</td><td class="px-6 py-4">12</td><td class="px-6 py-4">18.03.2026</td><td class="px-6 py-4">Mittwoch</td><td class="px-6 py-4 font-mono">RP25d</td><td class="px-6 py-4">15:20–17:55</td><td class="px-6 py-4 text-center font-semibold">3</td><td class="px-6 py-4"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <footer class="text-center mt-8 text-sm text-gray-500 print:hidden">
+            <p>Stand: September 2025</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
 
